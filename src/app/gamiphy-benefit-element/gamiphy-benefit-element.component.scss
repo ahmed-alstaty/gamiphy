@@ -1,0 +1,25 @@
+.benefit-element {
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+
+    .title {
+        padding-top: 0.5em;
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #6a99e7;
+        letter-spacing: normal;
+        text-transform: uppercase;
+    }
+
+    .description {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 1.13;
+        text-align: center;
+        color: #747d89;
+    }
+}

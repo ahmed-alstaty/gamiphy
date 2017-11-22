@@ -1,0 +1,32 @@
+<div class="header row">
+  <div class="col-md-12">
+    <div class="row">
+      <div *ngIf="lng !== 'ar'; else arPart">
+        <div class="col-md-2 col-md-offset-1">
+          <b class="logo">
+            <img src="../../assets/imgs/logo_horiz_transp.png" alt="Gamiphy" width="200">
+          </b>
+        </div>
+        <div class="col-md-8 col-md-offset-1">
+          <mat-nav-list class="menu-list">
+            <a class="menu-item" mat-list-item href="#" *ngFor="let link of links"> {{ link }} </a>
+            <a class="loginBtn menu-item" mat-list-item href="#"> Login </a>
+            <a class="signupBtn menu-item" mat-list-item href="#"> Sign up </a>
+         </mat-nav-list>
+        </div>
+      </div>
+      <ng-template dir="rtl" #arPart>
+          <div class="col-md-5 col-md-offset-2">
+              <mat-nav-list class="menu-list">
+                <a class="menu-item" mat-list-item href="#" *ngFor="let link of links"> {{ link }} </a>
+             </mat-nav-list>
+             <a class="menu-item" mat-list-item href="#"> Login </a>
+             <a class="menu-item" mat-list-item href="#"> Sign up </a>
+            </div>
+        <div class="col-md-2 col-md-offset-2">
+          <b>Gamiphy</b>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</div>

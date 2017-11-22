@@ -1,0 +1,21 @@
+<div class="gamiphy-element-container row">
+  <div class="col-md-12">
+    <div class="inner-container row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12">
+              <app-gamiphy-element-icon 
+              [icon]="icon"
+              [background-image]="iconBackgroundImage">
+            </app-gamiphy-element-icon>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p [ngStyle]="{ 'color': fontColor}" class="gamiphy-element-description">{{description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

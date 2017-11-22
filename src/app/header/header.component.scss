@@ -1,0 +1,68 @@
+$header-top-padding: 1em;
+$header-bottom-padding: 1em;
+$menu-item-disply: inline-block;
+$menu-item-floating: left;
+$menu-item-font-family: Roboto;
+$menu-item-font-size: 16px;
+$menu-item-letter-spacing: -0.3px;
+$menu-item-text-align: center;
+$menu-item-color: #747d89;
+$menu-item-height: 33px;
+
+.header {
+    padding-top: $header-top-padding;
+    padding-bottom: $header-bottom-padding;
+
+    /** Temp styles that will be changed according the logo once available */
+    /** TODO refactor this part of css */
+    .logo {
+        display: block;
+        margin-top: -0.2em !important;
+        width: 93px;
+        height: 28px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: #212121;
+    }
+    .menu-list {
+        /** TODO refactor this part of css */
+        .loginBtn {
+            height: 16px;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: -0.3px;
+            text-align: center;
+            color: #4896dc !important;
+            text-transform: uppercase;
+        }
+
+        /** TODO refactor this part of css */
+        .signupBtn {
+            width: 98px;
+            height: 33px;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: -0.3px;
+            text-align: center;
+            color: #ffffff !important;
+            border-radius: 4px;
+            background-color: #3c91f3;
+            text-transform: uppercase;
+        }
+        .menu-item {
+            height: $menu-item-height;
+            display: $menu-item-disply;
+            float: $menu-item-floating;
+            font-family:$menu-item-font-family;
+            font-size: $menu-item-font-size;
+            letter-spacing: $menu-item-letter-spacing;
+            text-align: $menu-item-text-align;
+            color: $menu-item-color;
+        }
+    }
+}
