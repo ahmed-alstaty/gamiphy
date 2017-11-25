@@ -3,11 +3,11 @@
     padding-top: 5em;
     padding-bottom: 5em;
     .title {
-        padding-bottom: 1em;
-        font-family: Roboto;
-        font-size: 26px;
-        font-weight: 500;
-        letter-spacing: 2.5px;
+        padding-bottom: 2em;
+        font-family: GoExtra1;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 5px;
         text-align: left;
         color: #5f7086;
         text-transform: uppercase;
@@ -16,6 +16,16 @@
         }
     }
     .benefit-elements {
-
+        .dot {
+            margin-top: 4em;
+            width: 14px;
+            height: 14px;
+            background-color: #efefef;
+            border-radius: 10px;
+            margin-left: -1.1em;
+        }
+        .last-dot {
+            margin-left: 0em !important;
+        }
     }
 }

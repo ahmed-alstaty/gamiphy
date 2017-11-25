@@ -1,6 +1,64 @@
 .footer {
     padding-top: 16px;
     padding-bottom: 16px;
+    .upper-footer{
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+        background-color: #385984;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        .text {
+            p {
+                float: right;
+            }
+        }
+        a {
+            text-decoration: none;
+            width: 130px;
+            display: block;
+            border-radius: 4px;
+            color: #03c35a;
+            border: solid 2px #03c35a;
+        }
+    }
+    .lower-footer{
+        padding-top: 2em;
+        background-color: #2e4e77;
+        .footer-menu {
+            margin-top: 2em;
+            .footer-menu-item {
+                opacity: 0.69;
+                font-family: Roboto;
+                font-size: 16px;
+                letter-spacing: -0.3px;
+                color: #ffffff;
+                text-decoration: none;
+                margin-top: 0.8em;
+                display:block;
+            }
+            .find-us {
+                opacity: 0.4;
+            }
+        }
+        .web {
+            margin-top: 0.5em;
+            .web-item {
+                color: #dad9d9;
+                font-size: 25px;
+                display: inline-block;
+                float: left;
+                margin-right: 0.7em;
+            }
+            a {
+                text-decoration: none;
+            }
+        }
+    }
     .footer-text {
         font-family: Roboto;
         font-size: 12px;

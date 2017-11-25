@@ -1,3 +1,4 @@
+import { environment } from './../../environments/environment';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./benefits-section.component.scss']
 })
 export class BenefitsSectionComponent implements OnInit {
-
+  assetsBaseUrl = environment.assetsBaseUrl;
   constructor() { }
 
   ngOnInit() {

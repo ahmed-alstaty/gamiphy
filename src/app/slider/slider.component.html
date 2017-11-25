@@ -1,7 +1,14 @@
 <div class="silder row">
-  <div class="col-md-12">
-    <p class="slider-content">Gamiphy <br>
-        The Content Gamification Platform for your Enterprise <br><br>
-        Engage, Reach, Retain & Analyse</p>
+  <div class="silder-col col-md-12">
+    <carousel>
+      <slide *ngFor="let img of images">
+        <img class="slider-image" src={{img.src}} alt="First slide" style="display: block; width: 100%;">
+        <div class="carousel-caption">
+          <h3 class="slider-title">{{img.title}}</h3>
+          <img class="slider-image silder-caption-image" src={{img.captionImage}}>
+          <p class="slider-desc">{{img.desc}}</p>
+        </div>
+      </slide>
+    </carousel>
   </div>
 </div>

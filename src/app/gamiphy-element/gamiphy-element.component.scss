@@ -3,11 +3,13 @@
     height: 317px;
     border-right: solid 1px #e8e8e8;
     .gamiphy-element-description {
-        font-family: Roboto;
-        font-size: 24px;
-        font-weight: 300;
+        font-family: Gobold;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.41;
+        letter-spacing: 2px;
         text-align: center;
-        color: #49515d;
+        color: #72a3ed;
         padding-top: 39px;
         text-transform: uppercase;
     }

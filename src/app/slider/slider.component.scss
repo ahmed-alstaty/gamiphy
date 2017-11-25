@@ -1,15 +1,35 @@
 .silder {
     height: 400px;
     background-image: linear-gradient(72deg, #408de6, #4f98e9 18%, #97c9f8);
-
-    .slider-content {
-        padding-top: 10%;
-        margin: 0 auto;
-        width: 859px;
-        height: 84px;
-        font-family: Roboto;
-        font-size: 36px;
-        font-weight: 300;
+    text-transform: uppercase;
+    .carousel-caption {
+        padding-bottom: 100px !important;
+    }
+    .silder-col {
+        padding: 0px !important;
+    }
+    .silder-image {
+        width: 100%;
+    }
+    .silder-caption-image {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .slider-title {
+        padding-top: 0px;
+        font-family: GoExtra1;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 1.41;
+        letter-spacing: 5.7px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .slider-desc {
+        font-family: Gobold;
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 2.4px;
         text-align: center;
         color: #ffffff;
     }

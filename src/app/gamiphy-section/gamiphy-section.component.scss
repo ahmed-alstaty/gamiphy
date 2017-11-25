@@ -1,0 +1,23 @@
+.gamiphy-section-container {
+    .gamiphy-section-label {
+        padding-top: 1em;
+        p {
+            width: 209px;
+            height: 63px;
+            margin: 0 auto;
+            border-radius: 4px;
+            background-color: #477192;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.37);
+            font-family: GoExtra1;
+            font-size: 28px;
+            line-height: 65px;
+            font-weight: bold;
+            letter-spacing: 5px;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: -1.2em;
+            z-index: 1;
+            position: relative;
+        }
+    }
+}
