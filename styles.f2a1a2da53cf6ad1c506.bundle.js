@@ -1,0 +1,1 @@
+webpackJsonp([2],{2:function(o,t,c){c("vjk9"),c("FAPG"),o.exports=c("mRtP")},FAPG:function(o,t,c){o.exports=c.p+"Gobold Bold.a213b3c5ccb42a31c042.otf"},mRtP:function(o,t,c){o.exports=c.p+"Gobold Extra1.38953a73440e17d9332f.otf"},vjk9:function(o,t){}},[2]);
